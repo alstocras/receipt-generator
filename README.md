@@ -1,5 +1,5 @@
-# receipt generator
-a receipt generator python script
+# project name
+stuff about the project
 ## how to contribute
 always use PRs and use the following guidelines
 - `patch:` for small fixes

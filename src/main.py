@@ -1,5 +1,5 @@
-name = input("Enter the name of the person: ")
-id = input("Enter the id of the person: ")
-centre = input("Enter the centre(s) the person works at: ")
-designation = input("Enter the designation of the person: ")
-joinDate = input("when did they join? ")
+import csv
+
+dataCSV = input("Provide the path to the .csv file with the data: ")
+
+reader = csv.DictReader(open(dataCSV))

@@ -1,4 +1,6 @@
 import csv
+import reportlab
+
 
 dataCSV = input("Provide the path to the .csv file with the data: ")
 dataDict = {}

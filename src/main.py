@@ -1,5 +1,7 @@
-import csv
-import reportlab
+from reportlab.pdfgen.canvas import Canvas
+from pdfrw import PdfReader
+from pdfrw.buildxobj import pagexobj
+from pdfrw.toreportlab import makerl
 
 
 dataCSV = input("Provide the path to the .csv file with the data: ")
